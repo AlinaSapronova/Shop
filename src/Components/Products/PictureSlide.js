@@ -4,9 +4,9 @@ import dataProduct from "../../Data/dataProduct";
 
 
 function PictureSlide(props){
-    const [pictureCard] = useState(props.numberItem-1);
+    const [picture] = useState(props.numberProduct-1);
     const [pictureArray,setPictureArray] = useState(0)
-    const { image } = dataProduct[pictureCard]
+    const { image } = dataProduct[picture]
     const imageStaff = image[pictureArray]
 
     const previous=()=>{

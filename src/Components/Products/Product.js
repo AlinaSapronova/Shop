@@ -6,7 +6,7 @@ const Product = ({item,id}) => {
 
     return(<div className="babyStaff" key={id} >
          
-          <PictureSlide numberItem = {id}/>
+          <PictureSlide numberProduct={id}/>
 
           <p className="footnote">All pictures and information are taken from the H&M website</p>
 
