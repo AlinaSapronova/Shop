@@ -1,0 +1,253 @@
+nav{
+  background-color: #D0C9C0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.navbar{
+  color:#5F7161;
+  padding: 10px 50px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Peralta', cursive;
+}
+
+body{
+ background-image: url(fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Peralta', cursive;
+}
+h1{
+  font-size: 70px;
+  color:#EFEAD8;
+  text-align: center;
+}
+.button{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.btn{
+  background-color: #D0C9C0;
+  text-align: center;
+  color:#5F7161;
+  padding: 40px;
+  margin: 20px;
+  font-size: 30px;
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  font-family: 'Peralta', cursive;
+  box-shadow: 10px 10px 10px #5F7161;
+}
+.babyimg{
+  width: 280px;
+  height: 400px;
+  margin-bottom: 10px;
+}
+.babyClothes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.babyStaff{
+  border-radius: 10px;
+  width: 400px;
+  margin:20px;
+  background-color: #d0c9c0b0;
+  padding: 10px;
+  text-align: center;
+}
+p{
+  color:#3e4c40;
+  font-size: 23px;
+}
+.babyBtn{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Peralta', cursive;
+  border-radius: 10px;
+  border: none;
+  background-color: #EFEAD8;
+}
+.babyButtons{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.babyBtn2{
+  padding: 20px;
+  margin: 20px;
+  background-color: #6D8B74;
+  font-family: 'Peralta', cursive;
+  font-size: 25px;
+  color: #EFEAD8;
+  border-radius: 10px;
+  border: none;
+}
+
+.promo{
+  text-align: center;
+  width: 50%;
+  background-color: #d0c9c0c3;
+  color:#5F7161;
+  padding: 40px;
+  margin: 20px;
+  font-size: 35px;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Peralta', cursive;
+  box-shadow: 10px 10px 10px #5F7161;
+
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h3{
+  font-size: 45px;
+  color:#3e4c40;
+}
+.homeP{
+  font-size: 35px;
+  color:#5F7161;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutItem{
+  text-align: center;
+  width: 50%;
+  background-color: #d0c9c0c3;
+  color:#5F7161;
+  padding: 30px;
+  margin: 10px;
+  font-size: 35px;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Peralta', cursive;
+  box-shadow: 10px 10px 10px #5F7161;
+}
+.imgItem{
+width: 350px;
+}
+.showMore{
+  font-family: 'Peralta', cursive;
+  color: black;
+  font-style: italic;
+  border: none;
+  background-color: #d0c9c000;
+  text-decoration: underline;
+}
+.showMore:hover{
+  cursor: pointer;
+  color: wheat;
+}
+.pictureContainer{
+  display: flex;
+  justify-content: center;
+}
+.pictureBtn{
+  border: 1px dotted #5F7161 ;
+  color: wheat;
+  background-color: #3e4c4066;
+  margin-bottom: 10px;
+}
+
+.containerUs{
+  background-image: url("https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.information{
+  background-color: #D0C9C0;
+}
+.infoP{
+  padding: 100px;
+  text-align: center;
+}
+.contactContainer{
+  background-color: #d0c9c0b4;
+  min-height: 100vh;
+}
+h2{
+  text-align: center;
+  font-size: 45px;
+  padding-top: 50px;
+  color: #3e4c40;
+ 
+}
+.social{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.footnote{
+  font-size: 10px;
+  font-style: italic;
+}
+.icon{
+  color: #3e4c40;
+}
+.age{
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.category{
+  color: #D0C9C0;
+  margin: 20px;
+  padding: 20px;
+  background-color: #5F7161;
+  border-radius: 20px;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+@media only screen and (max-width: 800px) {
+  .promo{
+    width: 500px;
+  }
+  h1{
+    font-size: 40px;
+  }
+ 
+}
+
+
+@media only screen and (max-width: 500px) {
+  .babyimg{
+    width: 200px;
+    height: 300px;
+  }
+  .babyStaff{
+    width: 290px;
+    
+  }
+  .containerUs{
+    background-image: url("https://images.unsplash.com/photo-1602008969851-05d604b0a450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGtpZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .infoP{
+    padding: 10px;
+  }
+  .promo{
+    width: 300px;
+  }
+  .h3{
+    font-size: 35px;
+  }
+  .homeP{
+    font-size: 25px;
+  }
+}
