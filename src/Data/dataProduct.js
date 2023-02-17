@@ -8,7 +8,15 @@ const dataProduct = [
         gender:"boy",
         details:"Baby Exclusive. Overalls in jacquard-knit cotton. Adjustable straps, crossed at back, with wooden buttons at front. ", 
         price:"29.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
 
     {
@@ -20,7 +28,15 @@ const dataProduct = [
         gender:"girl",
         details:"Knit jumpsuit in soft cotton. Buttons on one shoulder, long raglan sleeves, and long legs. Buttons at gusset and along legs. Ribbing at neckline, cuffs, and hem. ",
         price:"27.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:3,
@@ -31,7 +47,15 @@ const dataProduct = [
         gender:"girl",
         details:"Set with a bodysuit and leggings in soft, ribbed, organic cotton jersey. Long-sleeved bodysuit with concealed snap fastener on one shoulder and snap fasteners at gusset. Leggings with elasticized waistband.",
         price:"19.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:4,
@@ -42,7 +66,15 @@ const dataProduct = [
         gender:"girl",
         details:"Pants in soft, lightweight cotton jersey. Elasticized waistband with drawstring. Tapered legs.",
         price:"29.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:5,
@@ -55,7 +87,15 @@ const dataProduct = [
         gender:"boy",
         details:"Long-sleeved jumpsuits in soft cotton jersey with a zip at front and along one leg. Covered feet.",
         price:"29.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:6,
@@ -66,7 +106,15 @@ const dataProduct = [
         gender:"boy",
         details:"Soft, fleece-lined knit set with a hat and mittens. Hat with a pompom at top, ribbed, foldover cuff, earflaps, and ties under chin. Mittens with ribbed cuffs.",
         price:"14.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:7,
@@ -78,7 +126,15 @@ const dataProduct = [
         gender:"boy",
         details:"Set with a sweatshirt and sweatpant joggers in cotton fabric with soft, brushed inside. Sweatshirt with ribbed trim at neck, snap fastener at sides of neck, long sleeves, and soft, ribbed elastic at cuffs and hem. Joggers with soft, covered elastic at waistband and and soft, ribbed elastic at hems. ",
         price:"19.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:8,
@@ -89,7 +145,15 @@ const dataProduct = [
         gender:"girl",
         details:"Set with a sweatshirt and sweatpant joggers in cotton fabric with soft, brushed inside. Sweatshirt with ribbed trim at neck, snap fastener at sides of neck, long sleeves, and soft, ribbed elastic at cuffs and hem. Joggers with soft, covered elastic at waistband and and soft, ribbed elastic at hems.",
         price:"19.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:9,
@@ -100,7 +164,15 @@ const dataProduct = [
         gender:"girl",
         details:"Set with a sweatshirt and sweatpant joggers in cotton fabric with soft, brushed inside. Top with snap fastener on shoulders, printed text design at front, dropped shoulders, and long sleeves. Ribbing at neckline and soft, narrow elastic at cuffs and hem. Joggers with soft, elasticized waistband and soft, narrow elastic at hems.",
         price:"19.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
     {
         id:10,
@@ -111,7 +183,15 @@ const dataProduct = [
         gender:"boy",
         details:"Set with a long-sleeved bodysuit and pants in soft cotton jersey. Bodysuit with a printed motif at front, snap fasteners at gusset, and ribbing at neck and legs. Pants with elasticized, drawstring waistband and cuffed hems.",
         price:"9.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'0-3',
+            },
+            {size:'3-6',
+           },
+            {size:'6-12',
+          }
+        ]
     },
 
 
@@ -126,7 +206,17 @@ const dataProduct = [
         gender:"toddlerGirl",
         details:"Sweatshirt with soft, brushed inside. Gently dropped shoulders, long sleeves, and ribbing at neckline, cuffs, and hem. ",
         price:"17.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:12,
@@ -138,7 +228,17 @@ const dataProduct = [
         gender:"toddlerBoy",
         details:"Padded vest in quilted, woven fabric. Detachable hood, stand-up collar, and zip at front with anti-chafe chin guard. Covered elastic at armholes and welt front pockets.",
         price:"29.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:13,
@@ -150,7 +250,17 @@ const dataProduct = [
         gender:"toddlerBoy",
         details:"Set with a shirt in soft cotton jersey and a coordinated pants. Relaxed-fit shirt with dropped shoulders, long sleeves, and ribbing at neck and cuffs. Slim-fit, 5-pocket pants in soft, narrow-wale cotton corduroy with an adjustable, elasticized waistband and mock fly with snap fastener. ", 
         price:"34.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:14,
@@ -162,7 +272,17 @@ const dataProduct = [
         gender:"toddlerGirl",
         details:"Set with a dress in soft, loose-knit chenille and leggings in jersey. Dress with a round neckline, dropped shoulders, long sleeves, and ribbing at neckline, cuffs, and hem. Leggings with a soft, elasticized waistband. ",
         price:"34.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:15,
@@ -174,7 +294,17 @@ const dataProduct = [
         gender:"toddlerGirl",
         details:"Ankle-high boots with lacing at front, zipper at one side, and loop at back get boots on and off with ease. Lining and insoles in soft velour to keep feet warm. Chunky, patterned soles.",
         price:"34.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:16,
@@ -186,7 +316,17 @@ const dataProduct = [
         gender:"toddlerBoy",
         details:"Warm-lined, waterproof high tops with a hook-loop tab and elasticized lacing at front. Mesh lining, mesh insoles, and chunky, patterned soles. Reflective details for added visibility. Sole thickness 1 1/4 in.",
         price:"39.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:17,
@@ -198,7 +338,17 @@ const dataProduct = [
         gender:"toddlerBoy",
         details:"Sweatshirts in lightweight, cotton fabric, one with a contrasting, open chest pocket. Ribbing at neck, long sleeves, and short slit at sides. ",
         price:"24.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:18,
@@ -210,7 +360,17 @@ const dataProduct = [
         gender:"toddlerGirl",
         details:"Overall dress in narrow-wale corduroy and a coordinating top in soft cotton jersey. Dress with adjustable suspenders with metal fasteners and a gathered seam with covered elastic above a flared skirt. Long-sleeved top with a round neckline.",
         price:"32.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:19,
@@ -222,7 +382,17 @@ const dataProduct = [
         gender:"toddlerGirl",
         details:"Long-sleeved tops in soft, organic cotton jersey.",
         price:"29.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
     {
         id:20,
@@ -234,7 +404,17 @@ const dataProduct = [
         gender:"toddlerBoy",
         details:"Sweatpant joggers with reinforced panels at knees. Elasticized drawstring waistband, side pockets, and dropped gusset. Tapered legs with ribbed hems.",
         price:"19.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'12-18',
+            },
+            {size:'18-24',
+           },
+            {size:'2-3',
+          },
+          {size:'3-4',
+        }
+        ]
     },
 
 
@@ -249,7 +429,17 @@ const dataProduct = [
         gender:"kidsBoy",
         details:"Baseball jacket in woven fabric with terry appliqués. Stand-up collar, snap fasteners at front, and welt front pockets. Dropped shoulders, long sleeves, and ribbing at collar, cuffs, and hem.",
         price:"49.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:22,
@@ -261,7 +451,17 @@ const dataProduct = [
         gender:"kidsBoy",
         details:"Easy pull-on sweatpant joggers with a printed design and soft, brushed inside. Ribbed, elasticized waistband, discreet side-seam pockets, and straight legs with ribbed hems. ",
         price:"49.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:23,
@@ -273,7 +473,17 @@ const dataProduct = [
         gender:"kidsGirl",
         details:"Sweatpants in thick, denim-look fabric. Soft, covered elastic at waistband, mock fly, mock front pockets, and regular back pockets. Wide legs with slit at hems.",
         price:"24.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:24,
@@ -285,7 +495,17 @@ const dataProduct = [
         gender:"kidsGirl",
         details:"Cozy set with a hooded jacket and joggers in soft velour. Jacket with unlined hood, zipper at front with chin guard, kangaroo pockets, and ribbing at cuffs and hem. Joggers with covered elastic at waistband and wide hems. ",
         price:"34.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:25,
@@ -297,7 +517,17 @@ const dataProduct = [
         gender:"kidsGirl",
         details:"Dress in woven fabric. Small opening at back of neck with button, long raglan sleeves with smocking at cuffs, and smocked waist with decorative bows at sides. Unlined. Composition Polyester 97%, Spandex 3%",
         price:"27.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:26,
@@ -309,7 +539,17 @@ const dataProduct = [
         gender:"kidsBoy",
         details:"Warm-lined high tops with a waterproof membrane to keep feet dry in snow and rain. Padded edge and tongue, elasticized lacing, and hook-loop fastener at front. Loop at back to get shoes on and off with ease. Reflective details for increased visibility. Velboa lining, velboa insoles, and chunky soles with good grip. Sole thickness 1 1/2 in.",
         price:"59.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:27,
@@ -321,7 +561,17 @@ const dataProduct = [
         gender:"kidsBoy",
         details:"Set with a sweatshirt hoodie and sweatpants with soft, brushed inside. Hoodie with a lined hood, half-zip with anti-chafe chin guard, kangaroo pocket, and elasticized trim at cuffs and hem. Sweatpants with covered elastic at waistband, elasticized drawstring with cord stopper, diagonal side pockets, and a mock welt back pocket. ",
         price:"39.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:28,
@@ -333,7 +583,17 @@ const dataProduct = [
         gender:"kidsBoy",
         details:"Lightweight, loose-fit sweatshirt. Crew neck, dropped shoulders, and long sleeves. Ribbing at neck, cuffs, and hem.  FitLoose fit.  Composition Cotton 83%, Polyester 17%",
         price:"Sale: $9.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:29,
@@ -345,7 +605,17 @@ const dataProduct = [
         gender:"kidsGirl",
         details:"Set with a sweatshirt in lightweight cotton fabric and leggings in soft cotton jersey. Sweatshirt with a round neckline, long sleeves, and a decorative tie detail at hem. Leggings with an elasticized waistband and flared legs. ",
         price:"24.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:30,
@@ -357,7 +627,17 @@ const dataProduct = [
         gender:"kidsGirl",
         details:"High profile Chelsea boots. Elasticized panel at one side, a zip at other side, and loops at top to get boots on and off with ease. Soft velour lining and insoles. Chunky soles. Sole thickness 1 1/2 in. ",
         price:"39.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:31,
@@ -369,7 +649,17 @@ const dataProduct = [
         gender:"kidsBoy",
         details:"Oversized shirt in cotton flannel. Hood in cotton jersey and short sleeves layered over long sleeves in cotton jersey. Collar, buttons at front, and chest pockets with button.",
         price:"27.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
     {
         id:32,
@@ -381,7 +671,17 @@ const dataProduct = [
         gender:"kidsGirl",
         details:"Set with sweatshirt and a skirt in cotton twill. Relaxed-fit sweatshirt with a round neckline, heavily dropped shoulders, long sleeves, and ribbing at neckline, cuffs, and hem. Soft, brushed inside. Skirt with adjustable, elasticized waistband and a concealed zipper at one side with snap fastener.",
         price:"30.99",
-        showMore:false
+        showMore:false,
+        size:[
+            {size:'4-5',
+            },
+            {size:'5-6',
+           },
+            {size:'6-7',
+          },
+          {size:'7-8',
+        }
+        ]
     },
 
 

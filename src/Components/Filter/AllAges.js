@@ -1,6 +1,12 @@
+import Filter from "./Filter";
 function AllAges(){
     return(
-<div>All Ages Categories</div>
+        
+            <div className="categories">
+                {['ALL','baby','toddler','kids'].map((age,index )=> <Filter age={age} key={index}/>)}
+            </div>
+          
+        
     )
 }
 export default AllAges;

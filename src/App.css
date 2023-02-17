@@ -33,9 +33,10 @@ h1{
 }
 .btn{
   background-color: #D0C9C0;
+  text-transform: uppercase;
   text-align: center;
   color:#5F7161;
-  padding: 40px;
+  padding: 20px;
   margin: 20px;
   font-size: 30px;
   border-radius: 25px;
@@ -67,6 +68,11 @@ p{
   color:#3e4c40;
   font-size: 23px;
 }
+.name{
+  font-size: 26px;
+  color: #3e4c40;
+  font-weight: bold;
+}
 .babyBtn{
   padding: 10px;
   font-size: 20px;
@@ -74,6 +80,11 @@ p{
   border-radius: 10px;
   border: none;
   background-color: #EFEAD8;
+}
+.categories{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .babyButtons{
   display: flex;
@@ -89,6 +100,20 @@ p{
   color: #EFEAD8;
   border-radius: 10px;
   border: none;
+}
+
+.ageButtonSelected:hover {
+  background-color:#3e4c40 ;
+  color: #D0C9C0;
+  cursor: pointer;
+
+
+
+}
+.ageButton:hover {
+  background-color: #6D8B74;
+  color: #D0C9C0;
+ 
 }
 
 .promo{
@@ -161,11 +186,8 @@ width: 350px;
   background-color: #3e4c4066;
   margin-bottom: 10px;
 }
-
-.containerUs{
-  background-image: url("https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
-background-size: cover;
-background-repeat: no-repeat;
+.details{
+  font-size: 20px;
 }
 .information{
   background-color: #D0C9C0;
@@ -210,6 +232,7 @@ h2{
   font-size: 30px;
   letter-spacing: 3px;
 }
+
 @media only screen and (max-width: 800px) {
   .promo{
     width: 500px;
@@ -219,7 +242,21 @@ h2{
   }
  
 }
-
+#quantity{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#cart{
+  background-color: #d0c9c0e9;
+  
+}
+.cart{
+  font-size: 20px;
+}
+#total{
+  background-color: #d0c9c0d6;
+  font-size: 30px;
+}
 
 @media only screen and (max-width: 500px) {
   .babyimg{
